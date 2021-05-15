@@ -37,6 +37,7 @@ defmodule WordpressEx.Model.Page do
             ping_status: nil,
             template: nil,
             meta: [],
+            acf: %{},
             _links: %{
               self: [
                 %{href: nil}

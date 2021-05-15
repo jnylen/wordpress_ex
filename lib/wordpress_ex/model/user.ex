@@ -24,6 +24,6 @@ defmodule WordpressEx.Model.User do
             capabilities: [],
             extra_capabilities: [],
             avatar_urls: [],
+            acf: %{},
             meta: []
-
 end

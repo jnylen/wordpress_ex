@@ -15,6 +15,7 @@ defmodule WordpressEx.Model.Category do
             taxonomy: nil,
             parent: nil,
             meta: [],
+            acf: %{},
             _links: %{
               self: [
                 %{href: nil}

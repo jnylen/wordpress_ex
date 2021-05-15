@@ -26,6 +26,7 @@ defmodule WordpressEx.Model.Comment do
               "96": nil
             },
             meta: [],
+            acf: %{},
             _links: %{
               self: [%{href: nil}],
               collection: [

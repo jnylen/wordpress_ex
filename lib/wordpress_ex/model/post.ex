@@ -38,6 +38,7 @@ defmodule WordpressEx.Model.Post do
             meta: [],
             categories: [],
             tags: [],
+            acf: %{},
             _links: %{
               self: [%{href: nil}],
               collection: [%{href: nil}],

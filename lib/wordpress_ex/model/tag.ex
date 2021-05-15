@@ -14,6 +14,7 @@ defmodule WordpressEx.Model.Tag do
             slug: nil,
             taxonomy: nil,
             meta: [],
+            acf: %{},
             _links: %{
               self: [
                 %{href: nil}

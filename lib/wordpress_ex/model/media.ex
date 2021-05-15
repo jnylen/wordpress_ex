@@ -29,6 +29,7 @@ defmodule WordpressEx.Model.Media do
             media_details: nil,
             post: nil,
             source_url: nil,
+            acf: %{},
             _links: %{
               self: [
                 %{href: nil}
