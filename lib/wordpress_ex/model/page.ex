@@ -32,6 +32,8 @@ defmodule WordpressEx.Model.Page do
             author: nil,
             featured_media: nil,
             parent: nil,
+            lang: nil,
+            translations: %{},
             menu_order: nil,
             comment_status: nil,
             ping_status: nil,
