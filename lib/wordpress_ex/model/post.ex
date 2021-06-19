@@ -33,6 +33,8 @@ defmodule WordpressEx.Model.Post do
             comment_status: nil,
             ping_status: nil,
             sticky: nil,
+            lang: nil,
+            translations: %{},
             template: nil,
             format: nil,
             meta: [],
